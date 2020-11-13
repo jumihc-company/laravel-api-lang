@@ -1,0 +1,36 @@
+{
+    "name": "jmhc/laravel-api-lang",
+    "description": "Laravel restful api lang.",
+    "keywords": [
+        "jmhc",
+        "laravel",
+        "api",
+        "languages"
+    ],
+    "homepage": "http://jumihc.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jumihc",
+            "email": "jumihuchuang@126.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jmhc\\ApiLang\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {
+        "php": "^7.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jmhc\\ApiLang\\JmhcServiceProvider"
+            ]
+        }
+    }
+}
